@@ -17,3 +17,18 @@ Experiments on MNIST (with 10 percent of training data and full training data) a
 The necessary steps for setting up the datasets, as well as the specific commands to run the experiments from the paper are provided there.
 
 All experiments were run on an NVIDIA GeForce RTX 3060.
+
+
+## Citation
+If you use this work in a scientific context, please cite the following:
+```
+@misc{roßels2026structuredrelevancedeterminationchannel,
+      title={Structured Relevance Determination and Channel Additive Gaussian Processes for Image Data}, 
+      author={Harald Roßels and Ludovico Scarton},
+      year={2026},
+      eprint={2610.25385},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2610.25385}, 
+}
+```
