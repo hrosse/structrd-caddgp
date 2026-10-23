@@ -5,8 +5,8 @@ Implementation of kernels that incorporate a form of hyperparameter-sharing tail
 The accompanying paper is available [here](https://arxiv.org/abs/2610.25385).
 
 More specifically, it includes:
-- hyperparameter-sharing accross groups of adjacent pixels (Automatic Patch Relevance Detection, APRD),
-- hyperparameter-sharing across colour channels (Automatic Channel Relevance Detection, ACRD),
+- hyperparameter-sharing accross groups of adjacent pixels (Automatic Patch Relevance Determination, APRD),
+- hyperparameter-sharing across colour channels (Automatic Channel Relevance Determination, ACRD),
 - channel-additive Gaussian processes that utilise hyperparameter-sharing,
 - integration of ACRD into convolutional Gaussian process models,
 - combining such convolutional Gaussian process models with a model that is based on channel-additivity and hyperparameter-sharing.
@@ -14,6 +14,7 @@ More specifically, it includes:
 ## Experiments
 
 Experiments on MNIST (with 10 percent of training data and full training data) and on a [planes in satellity imagery dataset](https://www.kaggle.com/datasets/rhammell/planesnet) can be run from the respective directories.
+The implementation is based on GPflow version 2.9.2.
 The necessary steps for setting up the datasets, as well as the specific commands to run the experiments from the paper are provided there.
 
 All experiments were run on an NVIDIA GeForce RTX 3060.
